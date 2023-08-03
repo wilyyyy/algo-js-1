@@ -5,12 +5,12 @@ Define the time complexity of that algo and determine the lowest possible time c
 */
 
 // O(n) time complexity (Linear)
-function SumNumbers(n) {
-  let sum = 0;
-  for (let i = 0; i < n.length; i++) {
-    sum += n[i];
+function SumNumbers(numbers) {
+  let sum = 0; // 1 operation
+  for (const number of numbers) { // 1 operation
+    sum += number; // numbers.length operations
   }
-  console.log(sum);
+  console.log(sum); // 1 operation
 }
 
 SumNumbers([3, 5, 8, 22]);
