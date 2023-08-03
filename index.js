@@ -10,4 +10,7 @@ function SumNumbers(n) {
   for (let i = 0; i < n.length; i++) {
     sum += n[i];
   }
+  console.log(sum);
 }
+
+SumNumbers([3, 5, 8, 22]);
